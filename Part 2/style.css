@@ -19,3 +19,25 @@ button:active {
 button:focus {
     outline: none;
 }
+
+
+section {
+    border-radius: 10px;
+    background-color: lightgray;
+    box-shadow: 0px 0px 3px #111;
+    max-width: 400px;
+}
+section img {
+    width: 100%;
+}
+
+section div {
+    border-radius: 8px;
+}
+
+.caption {
+    padding: 20px;
+}
+.caption h2 {
+    margin-top: 0px;
+}

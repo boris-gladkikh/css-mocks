@@ -2,13 +2,13 @@ body {
   margin: 0;
   border: 5px solid black;
   height: 100vh;
-  position: relative;
 }
 
 .one {
   width: 400px;
   height: 400px;
   background-color: red;
+  display: inline-block;
 }
 
 .two {
@@ -22,7 +22,9 @@ body {
   width: 200px;
   height: 200px;
   background-color: green;
- 
+  position: relative; 
+  left: 400px;
+  top: 200px;
 
 }
 
@@ -31,8 +33,10 @@ body {
   height: 100px;
   background-color: blue;
   position: absolute;
-  top: 0px;
-  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  
+
 
 
 }
